@@ -21,6 +21,4 @@ function exibeChuteNaTela(chute) {
     `
 }
 
-recognition.addEventListener('end', () => recognition.start)
-
-console.log(chute)
+recognition.addEventListener('end', () => recognition.start())
